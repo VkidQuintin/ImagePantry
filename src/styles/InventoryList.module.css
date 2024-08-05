@@ -1,0 +1,43 @@
+/* src/styles/InventoryList.module.css */
+.container {
+    padding: 20px;
+    background-color: #f0f8ff; /* Light blue background */
+    max-width: 800px; /* Maximum width for larger screens */
+    margin: auto; /* Center align horizontally */
+  }
+  
+  .inventoryList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .item {
+    background-color: #ffffff; /* White background for list items */
+    border: 1px solid #007bff; /* Blue border for list items */
+    margin: 8px 0;
+    padding: 8px;
+    border-radius: 4px;
+    transition: background-color 0.3s, border-color 0.3s; /* Smooth transition for hover effects */
+  }
+  
+  .item:hover {
+    background-color: #e6f0ff; /* Light blue background on hover */
+    border-color: #0056b3; /* Darker blue border on hover */
+  }
+  
+  .item img {
+    border-radius: 4px;
+  }
+  
+  @media (max-width: 600px) {
+    .container {
+      padding: 15px;
+    }
+  
+    .item {
+      margin: 5px 0;
+      padding: 10px;
+    }
+  }
+  

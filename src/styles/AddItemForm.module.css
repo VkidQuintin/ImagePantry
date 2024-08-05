@@ -1,0 +1,55 @@
+/* src/styles/AddItemForm.module.css */
+.container {
+    background-color: #f0f8ff; /* Light blue background */
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px; /* Maximum width for larger screens */
+    margin: auto; /* Center align horizontally */
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .inputText, .inputFile {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
+  
+  .inputText {
+    border: 1px solid #007bff; /* Blue border */
+    background-color: #ffffff; /* White background for text input */
+    color: #000000; /* Black text color for visibility */
+  }
+  
+  .inputText:focus {
+    border-color: #0056b3; /* Darker blue border on focus */
+    outline: none;
+  }
+  
+  .inputFile {
+    border: 1px solid #007bff; /* Blue border for file input */
+    color: #000000; /* Black color for the file input text */
+  }
+  
+  .button {
+    padding: 10px;
+    background-color: #007bff; /* Blue button background */
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  @media (max-width: 600px) {
+    .container {
+      padding: 15px;
+    }
+  }
+  

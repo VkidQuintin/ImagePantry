@@ -1,3 +1,8 @@
+/* src/app/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -12,13 +17,6 @@
   }
 }
 
-.container {
-  max-width: 1200px; /* Adjust to your desired max-width */
-  margin: 0 auto;
-  padding: 1rem; /* Adjust padding as needed */
-}
-
-
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -29,6 +27,7 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+/* Ensure @layer is used correctly */
 @layer utilities {
   .text-balance {
     text-wrap: balance;

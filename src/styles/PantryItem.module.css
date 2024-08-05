@@ -1,0 +1,16 @@
+/* src/styles/PantryItem.module.css */
+.container {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .heading {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .quantity {
+    color: #555;
+  }
+  
